@@ -1,0 +1,14 @@
+{
+  "name": "reign-api",
+  "version": "1.0.0",
+  "description": "API developed in the context of the technical test for Reign hiring process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "José Rojel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
