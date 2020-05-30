@@ -39,6 +39,7 @@ Paso a paso:
   *Se debe reiniciar la sesión para que la configuración surta efecto*.
 - Desplegar los servicios.
   ```bash
+  cd simple-pokedex
   ./deploy.sh
   ```
 - Configurar el *security-group* de la instancia para admitir tráfico público TCP a los puertos **80** (client) y **3000** (server).
