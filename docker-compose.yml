@@ -1,0 +1,17 @@
+version: '3.2'
+
+services:
+  
+  frontend:
+    build: ./client
+    ports:
+      - 80:80
+    depends_on: 
+      - backend
+    restart: always
+
+  backend:
+    build: ./server
+    restart: always
+    ports:
+      - 3000:3000

@@ -1,14 +1,21 @@
 {
   "name": "reign-api",
   "version": "1.0.0",
-  "description": "API developed in the context of the technical test for Reign hiring process.",
+  "description": "API developed in the context of the technical test for the hiring process of Modyo.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "José Rojel",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pokedex-promise-v2": "^3.2.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
